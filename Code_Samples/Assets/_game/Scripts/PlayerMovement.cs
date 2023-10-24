@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded;
     void Start()
     {
-        Application.targetFrameRate = 50;
+        Application.targetFrameRate = 60;
     }
     void Update()
     {
