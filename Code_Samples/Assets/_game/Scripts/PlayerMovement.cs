@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Vector2 groundCheckDimensions;
     [SerializeField] LayerMask platformLayer;
     [SerializeField] float movementSpeed;
+
+    // Player Health
+    public float PlayerHealth = 100;
+    public int Score = 0;
 
     float horizontalInput;
     public bool isGrounded;
@@ -24,7 +29,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb2D.velocity = new Vector2(horizontalInput * movementSpeed * Time.fixedDeltaTime, rb2D.velocity.y);      
+        rb2D.velocity = new Vector2(horizontalInput * movementSpeed * Time.fixedDeltaTime, rb2D.velocity.y);
+
+        PlayerHealth -= Time.fixedDeltaTime;
+
     }
 
     private void OnMovement(InputValue axis) 
