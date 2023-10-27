@@ -24,7 +24,7 @@ public class Collected : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponent<PlayerMovement>().PlayerHealth += 10;
+            PlayerAttributes.AddHealth(10.0f);
             Destroy(gameObject, 0.1f);
         }
     }
