@@ -274,7 +274,7 @@ Transform:
   m_GameObject: {fileID: 35762933}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.23510371, y: 2.15, z: -10}
+  m_LocalPosition: {x: -1.28, y: 0.6500001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -774,6 +774,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc096df653ddd24ca0f37c056433537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatedPrefab: {fileID: 8096437986326989593, guid: 1744329f515aaa343b84385d0397010b, type: 3}
+  animationLength: 1
+  soundEffect: {fileID: 8300000, guid: b9301ee7736d9cc4791eb71339a6851d, type: 3}
+  volume: 1
 --- !u!58 &163789169
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -907,6 +911,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc096df653ddd24ca0f37c056433537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatedPrefab: {fileID: 8096437986326989593, guid: 1744329f515aaa343b84385d0397010b, type: 3}
+  animationLength: 1
+  soundEffect: {fileID: 8300000, guid: b9301ee7736d9cc4791eb71339a6851d, type: 3}
+  volume: 1
 --- !u!58 &198095215
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1916,7 +1924,7 @@ Transform:
   m_GameObject: {fileID: 411179227}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.23510371, y: -3.85, z: 0}
+  m_LocalPosition: {x: -1.28, y: -5.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2540,7 +2548,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.23510371, y: 2.15, z: -10}
+  m_LocalPosition: {x: -1.28, y: 0.6500001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2960,6 +2968,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc096df653ddd24ca0f37c056433537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatedPrefab: {fileID: 8096437986326989593, guid: 1744329f515aaa343b84385d0397010b, type: 3}
+  animationLength: 1
+  soundEffect: {fileID: 8300000, guid: b9301ee7736d9cc4791eb71339a6851d, type: 3}
+  volume: 1
 --- !u!58 &685917063
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10844,6 +10856,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc096df653ddd24ca0f37c056433537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatedPrefab: {fileID: 8096437986326989593, guid: 1744329f515aaa343b84385d0397010b, type: 3}
+  animationLength: 1
+  soundEffect: {fileID: 8300000, guid: b9301ee7736d9cc4791eb71339a6851d, type: 3}
+  volume: 1
 --- !u!58 &1243251939
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12284,6 +12300,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc096df653ddd24ca0f37c056433537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatedPrefab: {fileID: 8096437986326989593, guid: 1744329f515aaa343b84385d0397010b, type: 3}
+  animationLength: 1
+  soundEffect: {fileID: 8300000, guid: b9301ee7736d9cc4791eb71339a6851d, type: 3}
+  volume: 1
 --- !u!58 &1598645115
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12417,6 +12437,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc096df653ddd24ca0f37c056433537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatedPrefab: {fileID: 8096437986326989593, guid: 1744329f515aaa343b84385d0397010b, type: 3}
+  animationLength: 1
+  soundEffect: {fileID: 8300000, guid: b9301ee7736d9cc4791eb71339a6851d, type: 3}
+  volume: 1
 --- !u!58 &1644996118
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13131,6 +13155,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc096df653ddd24ca0f37c056433537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatedPrefab: {fileID: 8096437986326989593, guid: 1744329f515aaa343b84385d0397010b, type: 3}
+  animationLength: 1
+  soundEffect: {fileID: 8300000, guid: b9301ee7736d9cc4791eb71339a6851d, type: 3}
+  volume: 1
 --- !u!58 &1759766501
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13618,6 +13646,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc096df653ddd24ca0f37c056433537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatedPrefab: {fileID: 8096437986326989593, guid: 1744329f515aaa343b84385d0397010b, type: 3}
+  animationLength: 1
+  soundEffect: {fileID: 8300000, guid: b9301ee7736d9cc4791eb71339a6851d, type: 3}
+  volume: 1
 --- !u!58 &1834058245
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13835,6 +13867,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc096df653ddd24ca0f37c056433537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatedPrefab: {fileID: 8096437986326989593, guid: 1744329f515aaa343b84385d0397010b, type: 3}
+  animationLength: 1
+  soundEffect: {fileID: 8300000, guid: b9301ee7736d9cc4791eb71339a6851d, type: 3}
+  volume: 1
 --- !u!58 &1876486199
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14220,6 +14256,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc096df653ddd24ca0f37c056433537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatedPrefab: {fileID: 8096437986326989593, guid: 1744329f515aaa343b84385d0397010b, type: 3}
+  animationLength: 1
+  soundEffect: {fileID: 8300000, guid: b9301ee7736d9cc4791eb71339a6851d, type: 3}
+  volume: 1
 --- !u!58 &2004397294
 CircleCollider2D:
   m_ObjectHideFlags: 0
