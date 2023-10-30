@@ -20,7 +20,7 @@ public class CloudMove : MonoBehaviour
         // Check if the object is out of the camera view
         Vector3 viewportPosition = Camera.main.WorldToViewportPoint(transform.position);
 
-        // Check if the sprite is outside the screen bounds
+        // Check if the sprite is outside the screen bounds (scaled to between 0 and 1)
         if (viewportPosition.x > 1f)
         {
             // The sprite is off-screen. Take appropriate action.
