@@ -695,7 +695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloudSpeed: 0.1
-  cloudXresetPosition: -10
+  cloudXresetPosition: -16
 --- !u!1 &175117017
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,7 +878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloudSpeed: 0.1
-  cloudXresetPosition: -10
+  cloudXresetPosition: -16
 --- !u!1 &252947914
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,7 +1061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloudSpeed: 0.1
-  cloudXresetPosition: -10
+  cloudXresetPosition: -16
 --- !u!1 &306126378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,7 +1297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloudSpeed: 0.1
-  cloudXresetPosition: -10
+  cloudXresetPosition: -16
 --- !u!1 &437297830
 GameObject:
   m_ObjectHideFlags: 0
@@ -2275,7 +2275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloudSpeed: 0.1
-  cloudXresetPosition: -10
+  cloudXresetPosition: -16
 --- !u!1 &980635912
 GameObject:
   m_ObjectHideFlags: 0
@@ -3498,7 +3498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloudSpeed: 0.1
-  cloudXresetPosition: -10
+  cloudXresetPosition: -16
 --- !u!212 &1571420971
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3859,7 +3859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloudSpeed: 0.1
-  cloudXresetPosition: -10
+  cloudXresetPosition: -16
 --- !u!1 &1788568936
 GameObject:
   m_ObjectHideFlags: 0
@@ -4568,7 +4568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloudSpeed: 0.1
-  cloudXresetPosition: -10
+  cloudXresetPosition: -16
 --- !u!1 &1967602381
 GameObject:
   m_ObjectHideFlags: 0

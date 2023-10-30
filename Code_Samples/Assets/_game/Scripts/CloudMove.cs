@@ -9,7 +9,7 @@ public class CloudMove : MonoBehaviour
 
     void Start()
     {
-        cloudSpeed += Random.Range(0, 0.2f) + 0.1f;
+        cloudSpeed = Random.Range(0, 0.2f) + 0.1f;
     }
 
     // Update is called once per frame
@@ -21,7 +21,7 @@ public class CloudMove : MonoBehaviour
         Vector3 viewportPosition = Camera.main.WorldToViewportPoint(transform.position);
 
         // Check if the sprite is outside the screen bounds
-        if (viewportPosition.x > 1.1f)
+        if (viewportPosition.x > 1f)
         {
             // The sprite is off-screen. Take appropriate action.
             this.transform.position = new Vector3(cloudXresetPosition, this.transform.position.y, this.transform.position.z);
